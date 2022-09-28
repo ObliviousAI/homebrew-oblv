@@ -1,4 +1,4 @@
-class HomebrewOblv < Formula
+class Oblv < Formula
   desc "Brew formula for oblv client proxy"
   homepage "https://docs.oblivious.ai/cli/introduction"
   url "https://github.com/ObliviousAI/homebrew-oblv/releases/download/0.3.0/oblv-0.3.0.tar.gz"
