@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install oblivious-ai/oblv/<formula>`
+`brew install ObliviousAI/oblv/oblv`
 
-Or `brew tap oblivious-ai/oblv` and then `brew install <formula>`.
+Or `brew tap ObliviousAI/oblv` and then `brew install oblv`.
 
 ## Documentation
 
