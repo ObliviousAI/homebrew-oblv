@@ -1,4 +1,4 @@
-# Oblivious-ai Oblv
+# Oblivious: OBLV
 
 ## How do I install these formulae?
 
