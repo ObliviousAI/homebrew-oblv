@@ -2,7 +2,7 @@ class Oblv < Formula
   desc "Brew formula for oblv client proxy"
   homepage "https://docs.oblivious.ai/cli/introduction"
   url "https://oblv-cli-binary.oblivious.ai/0.5.1/oblv-ccli-0.5.1-x86_64-apple-darwin.tar.gz"
-  sha256 "be238e1f529f14d5592d6ac404986d5c1e7d4f6a8793c9da2837e11d4bebdb51"
+  sha256 "dbbaa32633372370738b36052cf67bb039b8a57defe0de43eedc3aabd640ebe3"
   license ""
 
   def install
