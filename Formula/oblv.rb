@@ -1,5 +1,5 @@
 class Oblv < Formula
-  desc "oblv client proxy"
+  desc "The Oblv client proxy"
   homepage "https://www.oblivious.com/oblv"
 
   if Hardware::CPU.intel?
