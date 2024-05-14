@@ -1,4 +1,4 @@
-class Oblv< Formula
+class Oblv < Formula
   desc "Brew formula for oblv client proxy"
   homepage "https://www.oblivious.com/oblv"
 
