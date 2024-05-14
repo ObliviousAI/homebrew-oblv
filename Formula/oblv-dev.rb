@@ -1,13 +1,13 @@
 class OblvDev < Formula
-  desc "Brew formula for oblv client proxy"
+  desc "oblv client proxy"
   homepage "https://www.oblivious.com/oblv"
 
   if Hardware::CPU.intel?
-    url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0.r2-x86_64-apple-darwin.tar.gz"
-    sha256 "ebe4a3ef9ad2309c42b6770573ea6d06cdd4ee9020e0ad64d1ce186fc7868cd4"
+    url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0-r3-x86_64-apple-darwin.tar.gz"
+    sha256 "d2e3d891a8dbfeefd94e87b6febfa6545fd5e00b7084983c6fab3bcbebd3c484"
   elsif Hardware::CPU.arm?
-    url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0.r2-aarch64-apple-darwin.tar.gz"
-    sha256 "79b5e70398e4e2e3c07fca858fdd0a38a20833d4448c07d866eef1b49bd1055d"
+    url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0-r3-aarch64-apple-darwin.tar.gz"
+    sha256 "e21423083add4bf4b91e49b31869f57f5026968597b7691b4ad5c669889794e0"
   end
 
   license ""
