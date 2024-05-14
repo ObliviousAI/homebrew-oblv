@@ -3,11 +3,11 @@ class OblvDev < Formula
   homepage "https://www.oblivious.com/oblv"
 
   if Hardware::CPU.intel?
-    url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0-r3-x86_64-apple-darwin.tar.gz"
-    sha256 "d2e3d891a8dbfeefd94e87b6febfa6545fd5e00b7084983c6fab3bcbebd3c484"
+    url "https://oblv-ccli.oblivious.com/dev/brew/oblv-ccli-0.6.1-x86_64-apple-darwin.tar.gz"
+    sha256 "865592518264f690d68110fb89b40050804919dff052213713e350f988dad737"
   elsif Hardware::CPU.arm?
-    url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0-r3-aarch64-apple-darwin.tar.gz"
-    sha256 "e21423083add4bf4b91e49b31869f57f5026968597b7691b4ad5c669889794e0"
+    url "https://oblv-ccli.oblivious.com/dev/brew/oblv-ccli-0.6.1-aarch64-apple-darwin.tar.gz"
+    sha256 "44a5db099608794b4fb12a531573be0b2e2b6dc0b09d1ce99374dfde1b81b4e1"
   end
 
   license ""
