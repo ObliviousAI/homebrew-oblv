@@ -1,6 +1,6 @@
 class OblvDev < Formula
   desc "Brew formula for oblv client proxy"
-  homepage "https://docs.oblivious.ai/cli/introduction"
+  homepage "https://www.oblivious.com/oblv"
 
   if Hardware::CPU.intel?
     url "https://oblv-ccli.oblivious.com/nightly/brew/oblv-ccli-0.6.0.r2-x86_64-apple-darwin.tar.gz"
