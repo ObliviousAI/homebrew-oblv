@@ -1,4 +1,4 @@
-class OblvDevAT100 < Formula
+class OblvAT100 < Formula
   desc "Brew formula for oblv client proxy"
   homepage "https://www.oblivious.com/oblv"
 
