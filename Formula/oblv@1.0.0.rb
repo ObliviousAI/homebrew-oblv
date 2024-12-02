@@ -4,10 +4,10 @@ class OblvAT100 < Formula
 
   if Hardware::CPU.intel?
     url "https://cli.oblivious.com/dev/brew/oblv-ccli-1.0.0-r10-x86_64-apple-darwin.tar.gz"
-    sha256 "69fe54fcfdf9a6b7cd56a5bb77d86e341431e46614b429a91187b58acdd578a2"
+    sha256 "f976780423800f691990d6c738f6382aabddee940119f9f3ff66e33696c6af29"
   elsif Hardware::CPU.arm?
     url "https://cli.oblivious.com/dev/brew/oblv-ccli-1.0.0-r10-aarch64-apple-darwin.tar.gz"
-    sha256 "6d3182fa4ae7f59c1bc4ccd2245570d347a0e99cabed2c512ffb07b011c1a3f7"
+    sha256 "425c6f03b1478ed6859ea510a2f1c43fd9297b03ac2fb8f755bb82783f49acc1"
   end
 
   license ""
