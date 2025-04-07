@@ -18,12 +18,6 @@ class OblvDev < Formula
     prefix.install "README.md"
   end
 
-  def post_install
-    # Ensure any existing symlink is removed before creating a new one
-    rm "/opt/homebrew/bin/oblv"
-    bin.install_symlink prefix/"bin/oblv"
-  end
-
   test do
     system "#{bin}/oblv", "--help"
   end
